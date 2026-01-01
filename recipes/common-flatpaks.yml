@@ -1,0 +1,56 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - scope: user
+        repo:
+          title: Flathub (user)
+        install:
+          - com.adamcake.Bolt
+          - com.bitwarden.desktop
+          - com.discordapp.Discord
+          - com.github.johnfactotum.Foliate
+          - com.github.tchx84.Flatseal
+          - com.ranfdev.DistroShelf
+          - com.valvesoftware.Steam
+          - de.haeckerfelix.Shortwave
+          - io.freetubeapp.FreeTube
+          - io.github.flattool.Warehouse
+          - io.github.kolunmi.Bazaar
+          - io.github.shiftey.Desktop
+          - io.github.unknownskl.greenlight
+          - io.missioncenter.MissionCenter
+          - io.podman_desktop.PodmanDesktop
+          - it.mijorus.gearlever
+          - me.iepure.devtoolbox
+          - net.mediaarea.MediaInfo
+          - org.fedoraproject.MediaWriter
+          - org.fkoehler.KTailctl
+          - org.fooyin.fooyin
+          - org.gnome.Evolution
+          - org.kde.gwenview
+          - org.kde.haruna
+          - org.kde.kcalc
+          - org.kde.kclock
+          - org.kde.kleopatra
+          - org.kde.krita
+          - org.kde.kweather
+          - org.kde.okular
+          - org.kde.skanpage
+          - org.kde.tokodon
+          - org.kde.yakuake
+          - org.libreoffice.LibreOffice
+          - org.mozilla.firefox
+          - org.musicbrainz.Picard
+          - org.qbittorrent.qBittorrent
+          - org.raspberrypi.rpi-imager
+          - org.signal.Signal
+          - org.torproject.torbrowser-launcher
+          - sh.loft.devpod
+          - tv.plex.PlexDesktop
+        remove:
+          - com.borgbase.Vorta
+          - io.github.pwr_solaar.solaar
+          - org.deskflow.deskflow
+          - org.gnome.DejaDup
+          - org.kde.kontact
+          - org.mozilla.Thunderbird

@@ -1,0 +1,13 @@
+modules:
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - FiraCode
+        - Hack
+        - BlexMono
+        - RobotoMono
+      google-fonts:
+        - IBM Plex Sans
+        - IBM Plex Serif
+        - Inter
+        - Roboto

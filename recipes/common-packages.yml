@@ -1,0 +1,13 @@
+modules:
+  - type: dnf
+    install:
+      packages:
+        - btop
+        - f39-backgrounds-kde
+        - mullvad-vpn
+        - nvim
+        - rclone
+        - starship
+    remove:
+      packages:
+        - NetworkManager-config-connectivity-fedora
