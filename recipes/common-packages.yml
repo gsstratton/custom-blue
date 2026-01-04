@@ -6,7 +6,7 @@ modules:
         - f39-backgrounds-kde
         - firefox
         - ibm-plex-fonts
-        - mullvad-vpn
+#        - mullvad-vpn
         - neovim
         - rclone
         - rsms-inter-fonts
