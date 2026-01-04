@@ -4,12 +4,9 @@ modules:
       packages:
         - btop
         - f39-backgrounds-kde
-        - ibm-plex-fonts
         - mullvad-vpn
         - nvim
         - rclone
-        - rsms-inter-fonts
-        - starship
     remove:
       packages:
         - NetworkManager-config-connectivity-fedora
