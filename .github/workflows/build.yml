@@ -2,7 +2,7 @@ name: bluebuild
 on:
   schedule:
     - cron:
-        "00 06 * * *"
+        "00 08 * * *"
   push:
     paths-ignore:
       - "**.md"
@@ -28,6 +28,10 @@ jobs:
           - aurora-dx.yml
           - aurora-nvidia-open.yml
           - aurora-dx-nvidia-open.yml
+          - bazzite.yml
+          - bazzite-dx.yml
+          - bazzite-nvidia-open.yml
+          - bazzite-dx-nvidia-open.yml
     steps:
       - name: Build Custom Image
         uses: blue-build/github-action@v1.10
