@@ -5,8 +5,8 @@ modules:
         - btop
         - f39-backgrounds-kde
         - firefox
-        - ibm-plex-fonts
-#        - mullvad-vpn
+        - ibm-plex-fonts-all
+        - mullvad-vpn
         - neovim
         - rclone
         - rsms-inter-fonts
