@@ -1,0 +1,12 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+name: custom-blue
+description: This is my personal OS image.
+base-image: ghcr.io/ublue-os/aurora-dx
+image-version: stable 
+modules:
+  - from-file: common-repos.yml
+  - from-file: common-packages.yml
+  - from-file: common-flatpaks.yml
+  - from-file: common-services.yml
+  - from-file: common-extra-modules.yml
