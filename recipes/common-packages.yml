@@ -4,7 +4,6 @@ modules:
       packages:
         - btop
         - f39-backgrounds-kde
-        - firefox
         - ibm-plex-fonts-all
         - mullvad-vpn
         - neovim

@@ -53,5 +53,4 @@ modules:
           - org.deskflow.deskflow
           - org.gnome.DejaDup
           - org.kde.kontact
-          - org.mozilla.firefox
           - org.mozilla.Thunderbird
