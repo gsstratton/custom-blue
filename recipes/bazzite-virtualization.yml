@@ -4,3 +4,7 @@ modules:
       with-optional: true
       packages:
         - virtualization
+  - type: systemd
+    system:
+      enabled:
+        - libvirtd.service
